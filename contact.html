@@ -1,0 +1,163 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Master Page</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Custom Theme files -->
+        <!--theme-style-->
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <!--//theme-style-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="keywords" content="Wedding Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+            Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+            <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+            <!-- start menu -->
+            <script src="js/simpleCart.min.js"> </script>
+            <!-- start menu -->
+            <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+            <script type="text/javascript" src="js/memenu.js"></script>
+            <script>$(document).ready(function(){$(".memenu").memenu();});</script>
+            <!-- /start menu -->
+            <style type="text/css">
+                <!--
+                .style1 {color: #FF0000}
+                -->
+                </style>
+    </head>
+    <body>
+        <!--header-->
+        <div class="top_bg">
+            <div class="container">
+                <div class="header_top-sec">
+                    <div class="top_left">
+                        <ul>
+                            <li class="top_link"><a href="#">Log in</a></li>|
+                            <li class="top_link"><a href="#">Sign up</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-top">
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#"><h1><img src="images/logo.png" alt="logo"></h1></a>
+                    </div>
+                    <!---->
+                    
+                    <div class="top-nav">
+                        <ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
+                            
+                            <li class="grid"><a href="#">About Us</a></li>
+                            
+                            <li class="grid"><a href="#">Blog</a></li>
+                            <li class="grid"><a href="#">Products</a>
+                                <div class="mepanel">
+                                    <div class="row">
+                                        <div class="col1 me-one">
+                                            <h4>Mobiles</h4>
+                                            
+                                        </div>
+                                        <div class="col1 me-one">
+                                            <h4>Fashion</h4>
+                                            
+                                        </div>
+                                        <div class="col1 me-one">
+                                            <h4>Furniture</h4>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid"> <a href="contact.html"> Contact Us</a></li>
+                        </ul>
+                        <div class="clearfix"> </div>
+                    </div>
+                    
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!---->
+        
+        <div class="container sectionCnt style1">
+
+        
+        <div style=" width : 60%;font-size: 0.9em; margin-left:10%;" class="ui-widget ui-corner-all" >
+            <div style="padding: 4px 20px;" class="ui-widget-header ui-corner-top">Contact Us</div>
+            <div style="padding: 20px;" class="ui-widget-content ui-corner-bottom">
+                <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/redmond/jquery-ui.css" />
+                <form action="http://www.SnapHost.com/captcha/WebFormSubmit.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);">
+                    <input name="SnapHostID" type="hidden" value="48PW93SP855B" />
+                    <script type="text/javascript">
+                        function ValidateForm(frm) {
+                            if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
+                            if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.FromEmailAddress.focus();return false;}
+                            if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
+                            if (frm.Comments.value == "") {alert('Please enter comments or questions.');frm.Comments.focus();return false;}
+                            if (frm.CaptchaCode.value == "") {alert('Enter web form code.');frm.CaptchaCode.focus();return false;}
+                            return true; }
+                    function ReloadCaptchaImage(captchaImageId) {
+                        var obj = document.getElementById(captchaImageId);
+                        var src = obj.src;
+                        var date = new Date();
+                        var pos = src.indexOf('&rad=');
+                        if (pos >= 0) { src = src.substr(0, pos); }
+                        obj.src = src + '&rad=' + date.getTime();
+                        return false; }
+                    </script>
+                    <table border="0" cellpadding="5" cellspacing="0" width="600">
+                        <tr>
+                            <td><b>Name*:</b></td>
+                            <td><input name="Name" type="text" maxlength="60" style="width:350px; border:1px solid #999999;" class="ui-corner-all" /></td>
+                        </tr><tr>
+                            <td><b>Phone number:</b></td>
+                            <td><input name="PhoneNumber" type="text" maxlength="43" style="width:350px; border:1px solid #999999;" class="ui-corner-all" /></td>
+                        </tr><tr>
+                            <td><b>Email address*:</b></td>
+                            <td><input name="FromEmailAddress" type="text" maxlength="60" style="width:350px; border:1px solid #999999;" class="ui-corner-all" /></td>
+                        </tr><tr>
+                            <td><b>Comments and questions*:</b></td>
+                            <td><textarea name="Comments" rows="7" cols="40" style="width:350px; border:1px solid #999999;" class="ui-corner-all"></textarea></td>
+                        </tr><tr>
+                            <td colspan="2" align="center"> <br />
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                    <tr valign="top">
+                                        <td> <i>Enter web form code*:</i>
+                                            <input name="CaptchaCode" type="text" style="width:80px; border:1px solid #999999;" maxlength="6" class="ui-corner-all" />
+                                        </td><td>
+                                            <a href="http://www.SnapHost.com"><img id="CaptchaImage" alt="Web Form Code" title="Anti-spam web forms"
+                                                style="margin-left:20px; border:1px solid #999999;" class="ui-corner-all"
+                                                src="http://www.SnapHost.com/captcha/WebForm.aspx?id=48PW93SP855B&ImgType=2" /></a><br />
+                                            <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:12px;">reload image</span></a> </td></tr>
+                                </table> <br />
+                                * - required fields. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                <input name="skip_Submit" type="submit" value="Submit" />
+                            </td></tr>
+                    </table><br />
+                </form>
+            </div>
+        </div>
+        </div>
+
+        
+        <!---->
+        <div class="copywrite">
+            <div class="container">
+                <p>Copyright © 2016 MMIOO App. All Rights Reserved</a></p>
+            </div>
+        </div>		 
+    </body>
+</html>
+
+
+
+
+
